@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #00275E;
+  color: white;
+  text-align: center;
+}
+
+.headerName {
+  padding: 40px;
+  font-size: 30px;
+}
+
+.yellow {
+  color: #F9A11A;
+  font-weight: bold;
+}
+
+.container {
+  margin-top: 5px;
+}
+
+h1 {
+  font-size: 21px;
+}
+h2 {
+  font-size: 14px;
+}
+
+.score {
+  font-size: 26px;
+}
+
+h3 {
+  margin: 0px;
+  font-size: 12px;
+}
+
+.page {
+  padding: 10px;
+  text-align: center;
+}
+
+.game {
+  width: 100%;
+  padding-top: 2px;
+  border: 1px solid grey;
+}
+
+.date {
+  margin: 0px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.note {
+  margin: 0px;
+  font-size: 10px;
+}
+
+.col {
+  text-align: center;
+}
+
+.winlose {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+footer {
+  background-color: #00275E;
+  flex-shrink: 0;
+  text-align: center;
+  color: white;
+
+  margin-top: 50px;
+  padding: 50px 20px 50px 20px;
+}
+
+footer a {
+  color: #F9A11A;
+}
+
+footer a:hover {
+  color: white;
+}
+
+@media (min-width: 700px) {
+  .page {
+    width: 700px;
+    margin: auto;
+  }
+}
