@@ -58,3 +58,9 @@ async function fillScores() {
 }
 
 fillScores();
+
+function updateSeason() {
+  season = document.getElementById('selectSeason').value;
+  console.log("getting " + season + " season");
+  fillScores();
+}

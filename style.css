@@ -5,6 +5,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  background-color: #ffe1b4;
+}
+
 .header {
   background-color: #00275E;
   color: white;
@@ -54,7 +58,7 @@ h3 {
 
 .date {
   margin: 0px;
-  font-size: 10px;
+  font-size: 12px;
   text-align: center;
 }
 
